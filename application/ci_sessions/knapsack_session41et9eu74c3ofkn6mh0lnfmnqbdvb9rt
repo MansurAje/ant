@@ -1,0 +1,8 @@
+__ci_last_regenerate|i:1492868095;loginData|a:4:{s:6:"UserID";s:1:"4";s:8:"Username";s:5:"kadin";s:8:"NamaUser";s:12:"Kepala Dinas";s:7:"lvlUser";s:1:"4";}msgbox|s:365:"<div class="alert alert-block alert-success">
+                        <button type="button" class="close" data-dismiss="alert">
+                                <i class="ace-icon fa fa-times"></i>
+                        </button>
+
+                        <!--<i class="ace-icon fa fa-check green"></i>-->
+                        Berhasil
+                    </div>";__ci_vars|a:1:{s:6:"msgbox";s:3:"new";}
