@@ -139,27 +139,27 @@
 				</div>
 				<div class="col-lg-12">
 					<div class="col-lg-4">
-						<b>&nbsp;Lokasi Asal :</b>
+						<b>&nbsp;Lokasi Asal : Gudang</b>
 						<select id="start"  class="form-control">
 							<?php foreach($depot AS $valdepot){ ?>
 								<option value="<?php echo $valdepot->depot_latlng ?>"><?php echo $valdepot->depot_nama ?></option>
 							<?php } ?>
 						</select>
 						<br>
-						<b>Node</b>
+						<b>Tujuan</b>
 						<select multiple class="form-control" id="waypoints">
 							<?php foreach($node AS $mnode){ ?>
 								<option value="<?php echo $mnode->node_latlng; ?>"><?php echo $mnode->node_name; ?></option>
 							<?php } ?>
 						</select>
-						<br>
+						<!-- <br>
 						<b>Tujuan  :</b>
 						<br>
 						<select id="end"  class="form-control">
 							<?php foreach($depot AS $valdepot){ ?>
 								<option value="<?php echo $valdepot->depot_latlng ?>"><?php echo $valdepot->depot_nama ?></option>
 							<?php } ?>
-						</select>
+						</select> -->
 						
 						<br>
 						<input class="form-control btn btn-primary btn-sm" type="submit" value="Lihat" id="submit">

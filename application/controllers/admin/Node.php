@@ -35,7 +35,7 @@ class Node extends CI_Controller {
 		$dataArray = array(
 			"node_name"	    => $post['nama'],
 			"node_latlng"	=> $post['latlng'],
-			"pic"			=> $post['pic'],
+			"node_notelp"			=> $post['node_notelp'],
 		);
 		$insert = $this->db->insert("node",$dataArray);
 		if($insert){
@@ -52,7 +52,7 @@ class Node extends CI_Controller {
 		$dataArray = array(
 			"node_name"	    => $post['nama'],
 			"node_latlng"	=> $post['latlng'],
-			"pic"			=> $post['pic'],
+			"node_notelp"			=> $post['node_notelp'],
 		);
 		$update = $this->db->update("node",$dataArray,ARRAY("node_id" => $id));
 		if($update){

@@ -14,7 +14,7 @@
                     <i class="ace-icon fa fa-home home-icon"></i> 
                     <a href="<?php echo base_url('admin/dashboard') ?>">Home</a>
                 </li>
-                <li class="active">Tambah Node</li>
+                <li class="active">Tambah Gudang</li>
             </ul><!-- /.breadcrumb -->
 
             
@@ -116,7 +116,7 @@
             <!-- /section:settings.box -->
             <div class="page-header">
                 <h1>
-                    Form Tambah Node
+                    Form Tambah Gudang
                     <small>
                         <i class="ace-icon fa fa-angle-double-right"></i>
                         
@@ -139,16 +139,16 @@
                         </div>
 						
                         <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">Nama Node</label>
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">Nama Gudang</label>
                             <div class="col-sm-9">
                                 <input type="text" id="form-field-1" name="nama" value="" placeholder="Isi Nama node" class="col-xs-10 col-sm-5" required/>
                             </div>
                         </div>
 						
                         <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">PIC</label>
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">No Telepon</label>
                             <div class="col-sm-9">
-                                <input type="text" id="form-field-1" name="pic" value="" placeholder="Isi PIC" class="col-xs-10 col-sm-5" required/>
+                                <input type="text" id="form-field-1" name="pic" value="" placeholder="Isi No Telepon" class="col-xs-10 col-sm-5" required/>
                             </div>
                         </div>
 						

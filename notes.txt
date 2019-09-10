@@ -1,0 +1,3 @@
+Modul 
+1. Create Modul Pelanggan
+2. Modif modul Gudang, fixing dari node

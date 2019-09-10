@@ -14,7 +14,7 @@
                     <i class="ace-icon fa fa-home home-icon"></i> 
                     <a href="<?php echo base_url('admin/dashboard') ?>">Home</a>
                 </li>
-                <li class="active">Edit Node</li>
+                <li class="active">Edit Gudang</li>
             </ul><!-- /.breadcrumb -->
 
             
@@ -116,7 +116,7 @@
             <!-- /section:settings.box -->
             <div class="page-header">
                 <h1>
-                    Form Edit Node
+                    Form Edit Gudang
                     <small>
                         <i class="ace-icon fa fa-angle-double-right"></i>
                         
@@ -139,7 +139,7 @@
                         </div>
 						
                         <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">Nama Node</label>
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">Nama Gudang</label>
                             <div class="col-sm-9">
                                 <input type="text" id="form-field-1" name="nama" value="<?php echo $detailData->node_name ?>" placeholder="Isi Nama node" class="col-xs-10 col-sm-5" required/>
                             </div>
