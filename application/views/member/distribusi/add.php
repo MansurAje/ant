@@ -141,15 +141,15 @@
 					<div class="col-lg-4">
 						<b>&nbsp;Lokasi Asal : Gudang</b>
 						<select id="start"  class="form-control">
-							<?php foreach($depot AS $valdepot){ ?>
-								<option value="<?php echo $valdepot->depot_latlng ?>"><?php echo $valdepot->depot_nama ?></option>
+							<?php foreach($node AS $mnode){ ?>
+								<option value="<?php echo $mnode->node_latlng ?>"><?php echo $mnode->node_name ?></option>
 							<?php } ?>
 						</select>
 						<br>
 						<b>Tujuan</b>
-						<select multiple class="form-control" id="waypoints">
-							<?php foreach($node AS $mnode){ ?>
-								<option value="<?php echo $mnode->node_latlng; ?>"><?php echo $mnode->node_name; ?></option>
+						<select id="end" multiple class="form-control" >
+							<?php foreach($customers AS $customer){ ?>
+								<option value="<?php echo $customer->pelanggan_latlng; ?>"><?php echo $customer->pelanggan_name; ?></option>
 							<?php } ?>
 						</select>
 						<!-- <br>
@@ -195,7 +195,7 @@
 
 	function calculateAndDisplayRoute(directionsService, directionsDisplay) {
 		var waypts = [];
-		var checkboxArray = document.getElementById('waypoints');
+		var checkboxArray = document.getElementById('end');
 		for (var i = 0; i < checkboxArray.length; i++) {
 		  if (checkboxArray.options[i].selected) {
 			waypts.push({

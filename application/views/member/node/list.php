@@ -150,7 +150,7 @@
                             <!-- div.dataTables_borderWrap -->
                             <div class="modal-footer no-margin-top"> 
                                 
-                                <a href="<?php echo base_url('admin/gudang/add') ?>">
+                                <a href="<?php echo base_url('admin/node/add') ?>">
                                 <button type="button" class="btn btn-sm btn-success pull-left" data-dismiss="modal">
                                     <i class="ace-icon fa fa-plus"></i>
                                     Tambah Data
@@ -165,7 +165,7 @@
                                 <tr>
                                     <th>No</th>
                                     <th>Nama gudang</th>
-                                    <th>PIC</th>
+                                    <th>No Telepon</th>
 									<th>latlng</th>
                                     <th>Aksi</th> 
                                 </tr>
@@ -177,12 +177,12 @@
 									?>
 									<tr>
 										<td><?php echo $no++ ?></td>
-										<td><?php echo $value->gudang_name ?></td>
-										<td><?php echo $value->pic ?></td>
-										<td><?php echo $value->gudang_latlng ?></td>
+										<td><?php echo $value->node_name ?></td>
+										<td><?php echo $value->node_notelp ?></td>
+										<td><?php echo $value->node_latlng ?></td>
 										<td>
-											<a href="<?php echo base_url('admin/gudang/edit/'.$value->gudang_id) ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil-square"></i> Lihat/Edit</a>
-											<a href="<?php echo base_url('admin/gudang/doDelete/'.$value->gudang_id) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Anda yakin ingin menghapus data petugas ini ? ')"><i class="fa fa-trash"></i> Hapus</a>
+											<a href="<?php echo base_url('admin/node/edit/'.$value->node_id) ?>" class="btn btn-primary btn-sm"><i class="fa fa-pencil-square"></i> Lihat/Edit</a>
+											<a href="<?php echo base_url('admin/node/doDelete/'.$value->node_id) ?>" class="btn btn-danger btn-sm" onclick="return confirm('Anda yakin ingin menghapus data petugas ini ? ')"><i class="fa fa-trash"></i> Hapus</a>
 										</td>
 										
 									</tr>

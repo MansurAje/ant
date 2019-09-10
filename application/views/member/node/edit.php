@@ -35,7 +35,7 @@
                         <!-- #section:settings.skins -->
                         <div class="ace-settings-item">
                             <div class="pull-left">
-                                <select id="skin-colorpicker" class="hide">
+                                <select id="skin-colornode_notelpker" class="hide">
                                     <option data-skin="no-skin" value="#438EB9">#438EB9</option>
                                     <option data-skin="skin-1" value="#222A2D">#222A2D</option>
                                     <option data-skin="skin-2" value="#C6487E">#C6487E</option>
@@ -146,9 +146,9 @@
                         </div>
 						
                         <div class="form-group">
-                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">PIC</label>
+                            <label class="col-sm-3 control-label no-padding-right" for="form-field-1">No Telepon</label>
                             <div class="col-sm-9">
-                                <input type="text" id="form-field-1" name="pic" value="<?php echo $detailData->pic ?>" placeholder="Isi Nama node" class="col-xs-10 col-sm-5" required/>
+                                <input type="text" id="form-field-1" name="node_notelp" value="<?php echo $detailData->node_notelp ?>" placeholder="Isi Nama node" class="col-xs-10 col-sm-5" required/>
                             </div>
                         </div>
 						

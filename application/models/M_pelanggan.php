@@ -18,4 +18,13 @@ class M_pelanggan extends CI_Model {
 		$result = $query->row();
 		return $result;
 	}
+
+	public function listPelanggan(){
+		$this->db->select("*");
+		$this->db->from("pelanggan");
+		$query	= $this->db->get();
+		$result = $query->result();
+		return $result; 
+	}
+
 }

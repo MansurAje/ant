@@ -148,7 +148,7 @@
                         <div class="form-group">
                             <label class="col-sm-3 control-label no-padding-right" for="form-field-1">No Telepon</label>
                             <div class="col-sm-9">
-                                <input type="text" id="form-field-1" name="pic" value="" placeholder="Isi No Telepon" class="col-xs-10 col-sm-5" required/>
+                                <input type="text" id="form-field-1" name="node_notelp" value="" placeholder="Isi No Telepon" class="col-xs-10 col-sm-5" required/>
                             </div>
                         </div>
 						
